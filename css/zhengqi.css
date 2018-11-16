@@ -1,0 +1,303 @@
+.topbar{width: 100%;height: 40px;background-color: #333333;}
+.topbar_bx{width: 1246px;height: 40px;margin: 0 auto;}
+.topbar_left{height: 40px;line-height: 40px;font-size: 12px;color: #b0b0b0;
+float: left;}
+.topbar_left a{color: #b0b0b0;display: inline-block;float: left;}
+.topbar_left a:hover{color: white;}
+.topbar_left_sapn{float: left;margin: 0 0.5em;color: #424242;;font-size: 12px;
+line-height: 40px;}
+.nav{width: 100%;    box-sizing: border-box;
+    height: 87px;
+    background-color: #fff;
+    color: #5e5e5e;
+    font-size: 14px;
+    line-height: 87px;}
+.nav_bx{width: 1246px;
+    margin: 0 auto;
+    position: relative;}
+.logo{display: block;color: black;font-size: 25px;line-height: 40px;height: 40px;padding-left: 50px;
+background: url(../img/shoye/logo-footer.png)no-repeat;background-size: 40px;
+margin-top: 23px;float: left;}
+.nav_r{float: right;}
+.nav_r span{display: inline-block;position: relative;}
+.nav_r span a{color: #5e5e5e;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    position: relative;}
+.nav_r span:hover a{color: #ff6b02;;}
+.yincang{    height: 79px;
+    line-height: 79px;
+    width: 360px;    position: absolute;
+    top: 87px;
+    left: -213px;z-index: 999;
+    background-color: rgba(53,55,63,.8);display: none;}
+.yincang a{color: #fff!important;    display: inline-block;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-left: 20px;
+    position: relative;}
+.nav_r span .yincang a:hover{color: #ff6b02 !important;}
+.nav_r span:nth-child(1):hover .yincang{display: block;}
+.lb{height: 500px;width: 100%;overflow: hidden;margin: 0 auto;}
+.lb_nei{width: 100%;height: 500px;position: relative;color: white;font-size: 30px;overflow: hidden;
+text-align: center;}
+.lb_big{height: 500px;width: 400%;position: absolute;left: 0;top: 0;}
+.lb_big .lb_img{float: left;height: 500px;position: relative;width: 25%;}
+
+.lb_img1{background: url(../img/fuwu/ban1.png)no-repeat center center;background-size: cover;}
+.lb_img2{background: url(../img/fuwu/ban2.png)no-repeat center center;background-size: cover;}
+.lb_img3{background: url(../img/fuwu/ban3.png)no-repeat center center;background-size:cover;}
+
+.tu_zi{position: absolute;left: 150px;top: 100px;}
+.zi_p1{font-size: 42px;margin-bottom: 15px;text-align: left;font-weight: 200;}
+.zi_p2{width: 150px;height: 3px;background:-webkit-linear-gradient(left, red , orange);display: block;
+margin-bottom: 50px;}
+.zi_p3{font-size: 32px;color: white;font-weight: 100;text-align: left;}
+.zi_p4{    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    display:block;
+   width: 150px;height: 40px;
+    color: #fff;
+	line-height: 40px;
+	margin-top: 30px;
+    }
+.zi_p4:hover{background-color: white;color: orange;}
+.xiaobiao{position: absolute;bottom: 25px;left: 50%;margin-left: -50px;z-index: 100;}
+.xiaobiao li{float: left;
+    width: 35px;
+    height: 6px;
+    display: block;
+    background: #fff;
+    margin: 0 3px;
+    opacity: 0.3;
+    cursor: pointer;}
+.xiaobiao .index{ opacity: 1;}
+.article{width: 100%;padding-bottom: 87px;
+    background-color: #fff;}
+.article_bx1{    width: 1246px;
+    margin: 0 auto;
+    padding-top: 63px;}
+.bx1_biao{text-align: center;}
+.bx1_biao p:nth-child(1){    margin: 0 auto;
+    width: 100%;
+    height: 42px;
+    font-size: 30px;
+    color: #5e5e5e;
+    line-height: 42px;}
+.bx1_biao p:nth-child(2){
+	    margin: 0 auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 25px;
+    font-size: 18px;
+    color: #a1a1a1;
+    line-height: 25px;
+}
+.bx1_content{    margin-top: 57px;
+display: flex;
+    justify-content: space-around;}
+.con_a{transition: all .3s linear;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 38px;
+    padding-bottom: 28px;
+    text-align: center;
+    width: 370px;
+    height: 365px;
+	    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;}
+.con_a:before{
+	    position: absolute;
+    top: 0;
+    left: -1px;
+    content: "";
+    height: 2px;
+    width: 370px;
+    background: linear-gradient(90deg,#ff7107,#fbc44f);
+}
+.con_a img{width: 123px;
+    height: 123px;}    
+.con_a_p1{margin-top: 33px;
+    margin-bottom: 14px;
+    font-size: 18px;
+    color: #5e5e5e;}
+.con_a_p2{width: 220px;
+    height: 36px;
+    font-size: 13px;
+    color: #a1a1a1;
+    line-height: 18px;
+    margin: 0 auto;
+    margin-bottom: 33px}
+.con_a_p3{    display: inline-block;
+    text-decoration: none;
+    color: #fe6f3d;
+    font-size: 14px;
+    vertical-align: middle;
+    width: 125px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #fe6f3d;}
+.con_a:hover{    cursor: pointer;
+    box-shadow: 0 10px 20px #ddd;
+    transform: translate3d(0,-5px,0);}
+.article_bx2{    width: 1246px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;}
+.bx2_biao{    margin-top: 104px;
+    margin-bottom: 52px;
+    text-align: center;}
+.bx2_cont{width: 1246px;height: 312px;position: relative;
+    overflow: hidden;}
+.con_big{position: absolute;left: 0;    height: 312px;}
+.tu1{    float: left;
+    background-size: cover;
+    background-position: 50%;
+    text-align: center;
+    box-sizing: border-box;background-color: red;
+	    position: relative;
+    width: 208px;
+    height: 312px;transition: all .3s linear;}
+.tu11{background: url(../img/fuwu/jrs-min.0a231e4.png)no-repeat center top;
+background-size: 100%;}
+.tu12{background-color: blue;background:url(../img/fuwu/jys-min.3797b52.png)no-repeat center top;
+background-size: 100%;}
+.tu13{background-color: yellow;background:url(../img/fuwu/tu3.png)no-repeat center top;background-size: 100%;}
+.tu14{background-color: pink;background: url(../img/fuwu/tu4.png)no-repeat center top;background-size: 100%;}
+.tu15{background-color: orchid;background: url(../img/fuwu/tu5.png)no-repeat center top;}
+.active{width: 414px;background-size: cover;
+}
+/* .tu1:hover{
+background: url(../img/fuwu/jrbgB-min.ef45825.png)no-repeat;background-size: cover;} */
+
+
+.arr1{position: absolute;
+    top: 94px;
+    left: 68px;
+    width: 72px;
+    height: 72px;border-radius: 50%;}
+.span1{    font-size: 16px;display: block;
+    height: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 198px;
+    left: 43px;
+    transition: all .2s ease;}
+.div1{    font-size: 13px;
+    width: 290px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 588px;
+    left: 33px;}
+.active.tu11{background:url(../img/fuwu/jrbgB-min.ef45825.png);background-size: cover;}
+.active.tu12{background:url(../img/fuwu/tu22.png);background-size: cover;}
+.active.tu13{background:url(../img/fuwu/tu33.png);background-size: cover;}
+.active.tu14{background:url(../img/fuwu/tu44.png);background-size: cover;}
+.active.tu15{background:url(../img/fuwu/tu55.png);background-size: cover;}
+.active .arr1{    top: 50px!important;
+    left: 172px!important;}
+.active .span1{top: 155px!important;
+    left: 143px!important;}
+.active .div1{    top: 205px!important;
+    left: 62px!important;}
+/* .bx3_biao p:nth-child(2){width: 100%;} */
+.bx3_con{width: 100%;    justify-content: flex-start;display: flex;align-content: space-between;
+    flex-wrap: wrap;}
+.bx3_con1{background: #fff;
+    box-sizing: border-box;
+    border: 1px solid #e2e2e2;
+    padding-top: 16px;
+    text-align: center;
+    width: 238px;
+    height: 104px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 16px;
+    margin-right: 10px;}
+.bx3_con1 img{    width: 127px;
+    height: 36px;}
+.bx3_con1 p{margin-top: 13px;
+    font-size: 13px;
+    color: #a1a1a1;}
+.bx4_con1{justify-content: space-between;    display: flex;    margin-top: 80px;margin-bottom: 0px}
+.bx4_icon{width: 240px;
+    height: 85px;
+    background-color: #fafafa;
+    display: -ms-flexbox;
+    display: flex;
+   
+    align-items: center;
+    
+    justify-content: center;
+    color: #efefef;
+    font-size: 20px;}
+.bx4_icon img{    height: 49px;}
+.bx4_con2{margin-top: 17px;    margin-bottom: 52px;justify-content: space-between;}
+.bx4_a{display: inline-block;width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #a1a1a1;
+    text-decoration: none;}
+.bx4_a:hover{    color: #fe6f3d;}
+.article_bx5{    margin: 0 auto;
+    height: 220px;
+    text-align: center;
+	background: url(../img/fuwu/banner-index-bottom.189d935.jpg)no-repeat;
+	    background-size: cover;
+    background-position: 50%;}
+.bx5_p1{    padding-top: 50px;
+    padding-bottom: 39px;
+    font-size: 24px;
+    color: #fff;}
+.bx5_p2{    display: inline-block;
+    text-decoration: none;
+    width: 136px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    color: #fff;}
+.bx5_p2:hover{background-color: white;color: #ff6b02;}
+.footer{width: 100%;background: #35373f;justify-content:space-around;display: flex;
+flex-direction: column;}
+.footer_bx{display: flex;
+    width: 1246px;justify-content: space-between;margin: 0 auto;}
+.fot_bx1{    flex-direction: column;display: flex;padding-top: 60px;padding-bottom: 60px;}
+.span_t{font-size: 16px;
+    font-family: PingFangSC-Regular;
+    color: #fff;
+    margin-bottom: 25px;}
+.span_b{    font-size: 14px;
+    font-family: PingFangSC-Regular;
+    color: #8e8e8e;
+    margin-bottom: 12px;}
+.btm_p1{    font-size: 16px;
+    font-family: STKaiti;
+    color: #8e8e8e;text-align: center;margin-bottom: 40px;}
+.btm_p2{font-size: 12px;
+    font-family: PingFangSC-Regular;
+    color: #8e8e8e;text-align: center;margin-bottom: 30px;}
+.guding{    height: 192px;
+    width: 145px;
+    border: 1px solid #e4e4e4;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+		z-index: 1000;}
+.guding img{    width: 110px;
+    height: 110px;}
+.guding p{    font-size: 14px;
+    color: #5e5e5e;}

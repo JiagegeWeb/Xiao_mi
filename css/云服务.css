@@ -1,0 +1,54 @@
+body,html{width: 100%;height: 100%;}
+.big{width: 100%;height: 100%;background: #1b53d6;
+    color: #fff;position: relative;}
+.nav{    width: 100%;
+    height: 58px;margin-bottom: 0px;
+   }
+.nxv_bx{ padding: 8px 20px 0 30px;}
+.nav_l{    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+	float: left;
+	background: url(../img/shoye/logo-footer.png) no-repeat;background-size: 50px;
+    padding-left: 60px;}
+.nav_r{height: 50px;
+    line-height: 50px;font-size: 14px;float: right;}
+.nav_r a{color: white;transition: 0.5s;}
+.nav_r span{font-size: 12px;line-height: 58px;padding: 0 10px;}
+.nav_r a:hover{color: #40a9ff;}
+.denglu{width: 100%;    display: flex;align-items: center;}
+.denglu1{    padding-bottom: 40px;    padding-right: 10%;    color: #fff;
+    padding-left: 20%;}
+.denglu_zi1{    font-size: 58px;}
+.denglu_zi2{    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 52px;
+    color: #d2ddf6;
+    line-height: 1.2;
+    }
+.btn{      display: inline-block;
+	background-color: white;
+	    border-radius: 100px;
+    padding: 16px 39px 16px 41px;
+	    color: #1851d7;
+    text-align: center;}
+.icon_mi{  
+    height: 24px;
+    width: 24px;background: url(../img/shoye/logo-footer.png) no-repeat;
+	  background-size: 24px;    display: inline-block;
+    vertical-align: middle;margin-right: 12px;}
+.btn span{    font-size: 18px;
+    color: #1851d7;
+    line-height: 16px;}
+.denglu2{width: 46%;    margin-left: 3%;
+    max-width: 1200px;}
+.denglu2 img{    width: 100%;
+    height: auto;}
+.big_btm{text-align: center;font-size: 12px;margin-bottom: 20px;}
+.big_btm span{padding: 0 5px;}
+.big_btm a{padding: 0 3px;color: white;text-decoration: underline;}
+.big_btm a:hover{text-decoration: none;}
+.big_btm2{text-align: center;color: #9ab3ea;font-size: 12px;}
+.big_btm2 span{padding: 0 10px;}
+.big_btm2 a{padding: 0 3px;color: #9ab3ea;}
+.big_btm3{color: #9ab3ea;font-size: 12px;text-align: center;margin-top: 10px;}

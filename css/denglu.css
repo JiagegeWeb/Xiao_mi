@@ -1,0 +1,72 @@
+body,html{width: 100%;height: 100%;background-color:#f5f5f5;;}
+.center{width: 854px;height: 600px;background-color: white;margin: 0 auto;overflow: hidden;}
+.d1{text-align: center;margin-top: 50px;}
+.d2{    font-size: 30px;
+    color: #424242;
+    font-weight: normal;
+    padding-top: 22px;text-align: center;}
+	.d3{text-align: center;margin-top: 50px;}
+	#ipt1{height: 22px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;margin: 0 auto;width: 326px;    color: #9d9d9d;
+	border: none;
+	border: 1px solid #e0e0e0;}
+	#ipt2{height: 22px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;margin: 0 auto;width: 326px;    color: #9d9d9d;border: none;
+	border: 1px solid #e0e0e0;}
+#btn{    background-color: #ef5b00;
+    width: 358px;margin: 0 auto;margin-top: 10px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;border: none;}
+.d4{width: 358px;height: 60px;margin: 0 auto;}
+.yanzheng{float: left;}
+.yanzheng a{    color: #ef5b00;
+    border: 0 none;
+    height: auto;
+    line-height: normal;
+    margin: 0;    font-size: 14px;}
+.zhuce{float: right;}
+.zhuce span{font-size: 12px;}
+.zhuce a{    color: #757575;font-size: 14px;}
+.zhuce a:hover{color: #ef5b00;}
+.qita{text-align: center;line-height: 20px;margin-top: 10px;width: 358px;height: 20px;
+margin: 0 auto;}
+.xian{height: 1px;width: 140px;background-color:#e0e0e0;float: left;}
+.xian_zi{float: left;line-height: 20px;margin-top: -10px;    color: #b0b0b0;font-size: 12px;}
+.qita2{width: 358px;height: 43px;padding-top: 10px;margin: 0 auto;
+text-align: center;}
+.biao1{    width: 30px;
+    height: 30px;
+    margin: 0 12px;display: inline-block;border-radius: 50%;
+	}
+.biao11{background-color:#0288d1;
+}
+.biao12{background-color:#d32f2f;
+}
+.biao13{background-color:#0ae;
+}
+.biao14{background-color:#00d20d;
+}
+.a_i1{width: 20px;height: 20px;background: url(../img/jinrong/type.png);}
+.a_i11{background-color:#0288d1;
+margin: 5px auto;background-position: -18px 1px;}
+.a_i12{background-color:#d32f2f;
+margin: 5px auto;background-position: -37px 1px;}
+.a_i13{background-color:#0ae;
+margin: 5px auto;background-position: -58px 1px;}
+.a_i14{background-color:#00d20d;
+margin: 5px auto;background-position: -85px 1px;}
+.footer{width: 100%;height: 100px;padding-top: 20px;}
+.footer_bx{width: 854px;height: 100px;margin: 0 auto;text-align: center;}
+.bx_p1{font-size: 12px;color: #757575;padding-bottom: 20px;}
+.bx_p1 a{color: #757575;}
+.bx_p2{font-size: 12px;color: #757575;}

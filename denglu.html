@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link rel="stylesheet" href="css/big.css" />
+		<link rel="stylesheet" href="css/denglu.css" />
+	</head>
+	<body>
+
+		<div class="center">
+			<div class="d1">
+				<img src="img/shoye/logo-footer.png" />
+			</div>
+			<div class="d2">小米账号登陆</div>
+			<div class="d3">
+				<form name="form2" onsubmit="return checkform()" action="fuwu2.html">
+					<input type="text" placeholder="邮箱/手机号码/小米ID" name="username" id="ipt1"/><br />
+					<input type="password" placeholder="密码" name="password" id="ipt2"/>
+					<input type="submit" value="登陆" id="btn" />
+					<!-- <script>
+											if($("#ipt1").val()=aaaa){
+												if($("#ipt2").val()==123456){
+													($("#btn")
+												}
+											}else{
+												alert("用户名或密码不正确")
+											}
+					</script> -->
+					
+				</form>
+				<script>
+										function checkform() {
+											var n = document.form2.username.value;
+											var p = document.form2.password.value;
+				
+											if (n != "123") {
+												alert("用户名不存在");
+												document.form2.username.focus();
+												return false;
+											} else if (p != "456") {
+												alert("密码与用户名不匹配");
+												document.form2.password.focus();
+												return false;
+											} else {
+												return true;
+											}
+										}
+									</script>
+			</div>
+			<div class="d4">
+				<div class="yanzheng">
+					<a href="JavaScript:;">手机短信登陆/注册</a>
+				</div>
+				<div class="zhuce">
+					<a href="JavaScript:;">立即注册</a>
+					<span>|</span>
+					<a href="JavaScript:;">忘记密码？</a>
+				</div>
+
+			</div>
+			<div class="qita">
+				<div class="xian"></div>
+				<span class="xian_zi">其他登陆方式</span>
+				<div class="xian"></div>
+			</div>
+			<div class="qita2">
+				<a href="JavaScript:;" class="biao1 biao11">
+					<i class="a_i1 a_i11"></i>
+				</a>
+				<a href="JavaScript:;" class="biao1 biao12">
+					<i class="a_i1 a_i12"></i>
+				</a>
+				<a href="JavaScript:;" class="biao1 biao13">
+					<i class="a_i1 a_i13"></i>
+				</a>
+				<a href="JavaScript:;" class="biao1 biao14">
+					<i class="a_i1 a_i14"></i>
+				</a>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer_bx">
+				<p class="bx_p1">
+					<a href="JavaScript:;">简体</a>
+					<span>|</span>
+					<a href="JavaScript:;">繁体</a>
+					<span>|</span>
+					<a href="JavaScript:;">English</a>
+					<span>|</span>
+					<a href="JavaScript:;">常见问题</a>
+					<span>|</span>
+					<a href="JavaScript:;">隐私政策</a>
+					<span>|</span>
+				</p>
+				<p class="bx_p2">
+					<span>小米公司版权所有-京ICP备10046444-</span>
+					<span></span>
+					<span>京公网安备11010802020134号-京ICP证110507号</span>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

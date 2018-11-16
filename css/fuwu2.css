@@ -1,0 +1,82 @@
+.geren{ float: right;margin-top: 10px;padding-left: 20px;position: relative;}
+.yincang{width: 250px;height: 305px;background-color: white;position: absolute;right: 0;top: 50px;
+border: 1px solid #b3b3b3;    box-shadow: 0 3px 6px 0 rgba(0,0,0,.1);
+    border-radius: 3px;display: none;
+}
+.yincang_nei{    width: 250px;
+    padding: 16px 0;box-sizing: border-box;}
+.a_top1{display: block;padding: 0 20px;}
+.top1_l{float: left;width: 134px;}
+.top1_l p:nth-child(1){
+    font-size: 16px;
+    color: #333;
+    line-height: 18px;
+    font-weight: 700;
+    vertical-align: middle;
+    max-width: 125px;overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+.top1_l p:nth-child(2){    font-size: 12px;
+    line-height: 16px;margin-top: 7px;
+    margin-bottom: 4px; color: #333;}
+.huiyuan{display: block;background: #d4a84e;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 3px;margin-top: 15px;
+    cursor: pointer;border: none;float: right; }
+.huiyuan:hover{    background: #c59127;}
+.rongliang{    font-size: 12px;
+    margin: 12px 0 -4px;    color: #666;
+    line-height: 14px;}
+.changtiao{       display: inline-block;
+    width: 100%;
+    background-color: #f5f5f5;
+    border-radius: 100px;
+    vertical-align: middle;
+    position: relative;}
+.lantiao{    width: 14.57%;
+    height: 5px;
+    border-radius: 100px;background-color: #1890ff;}
+.hengxian{width: 100%;    height: 1px;
+    background-color: #e6e6e6;
+    border: 0;
+    margin: 10px 0 2px;}
+.nei_btm{    padding: 0 20px;}
+.yincang_nei .nei_btm a{    display: block;
+    cursor: pointer;
+    color: #333 ;
+    padding: 13px 0;
+    font-size: 14px;
+    line-height: 14px;
+    }
+.nei_btm a:hover{color: #00AAEE;}
+
+
+.geren img{ height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    border: 2px solid #fff;
+	    transition: all .3s ease-in-out;}
+.geren img:hover{transform: scale(1.4);}
+.article{width:82.5769%;margin: 0 auto;margin-top: 70px;}
+.article a{width: 16.6667%;margin-bottom: 80px;color: white;display: block;float: left;}
+.tu{    width: 110px;
+    height: 110px;margin: 0 auto;}
+.tu img{    display: block;
+    width: 88px;
+    height: 88px;
+    margin: 0 auto;
+    
+    transition: all .2s ease-in-out;}
+.biqoqian{    color: #fff;
+   
+    
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+	color: white;text-align: center;
+	}
+.tu img:hover{transform: scale(1.4);}
+.big_btm_l{position: absolute;left: 10px;bottom: 10px;}
